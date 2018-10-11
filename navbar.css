@@ -6,141 +6,32 @@ html, body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  position: absolute;
 }
-
-
-
-/* Navbar */
-
-.nav {
-  height: 80px;
-  width: 100%;
-  text-align: center;
-  background-color: rgba(101, 101, 101, 0.5);
-  border-radius: 5px;
-}
-
-.nav-title{
-  float: left;
-  padding: 0px;
-  margin-left: 25px;
-  margin-top: 10px;
-}
-
-.nav > .nav-header {
-  display: inline;
-}
-
-.nav > .nav-header >  {
-  display: inline-block;
-  font-size: 1em;
-  color: #fff;
-  padding: 10px 10px 10px 10px;
-}
-
-.nav > .nav-btn {
-  display: none;
-}
-
-.nav > .nav-links {
-  padding-top: 10px;
-  display: inline;
-  float: right;
-  font-size: 1.5em;
-  margin-right: 10px;
-}
-
-.nav > .nav-links > a {
-  display: inline-block;
-  padding: 13px 10px 13px 10px;
-  text-decoration: none;
-  color: #efefef;
-}
-
-.nav > .nav-links > a:hover {
-  background-color: rgba(0, 0, 0, 0.3);
-}
-
-.nav > #nav-check {
-  display: none;
-}
-
-@media (max-width:600px) {
-  .nav > .nav-btn {
-    display: inline-block;
-    position: absolute;
-    right: 0px;
-    top: 0px;
-  }
-  .nav > .nav-btn > label {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    padding: 30px;
-    margin-right: 40px;
-  }
-  .nav > .nav-btn > label > span {
-    display: block;
-    width: 25px;
-    height: 10px;
-    border-top: 2px solid #eee;
-  }
-  .nav > .nav-links {
-    z-index: 9999;
-    margin-top: 20px;
-    position: absolute;
-    display: block;
-    width: 100%;
-    background-color: rgba(101, 101, 101, 0.5);
-    height: 0px;
-    transition: all 0.3s ease-in;
-    overflow-y: hidden;
-    top: 60px;
-    left: 0px;
-  }
-  .nav > .nav-links > a {
-    display: block;
-    width: 100%;
-
-  }
-  .nav > #nav-check:not(:checked) + .nav-links {
-    height: 0px;
-  }
-  .nav > #nav-check:checked + .nav-links {
-    margin-top: 10px;
-    height: 200px;
-    overflow-y: auto;
-
-  }
-}
-/* end Navbar */
-
 
 .container{
-  margin: 10px 100px
 }
+
 
 .dartlogo_opacity{
   opacity: .75;
-  margin-top: 30px;
-  margin-left: 30px;
+  /* margin-top: 30px;
+  margin-left: 30px; */
 }
 
-.jumbotron {
+.mainlanding {
   background-color: transparent;
-  width 90%;
+  width 100%;
   margin-bottom: 0px;
   padding-bottom: 0px;
   padding-top: 50px;
   text-align: center;
 }
-.jumbotron p{
-  font-size: 2.5em;
+.mainlanding p{
+  font-size: 3em;
   color: white;
   text-shadow: 2px 2px rgb(1, 27, 0)
-
 }
+
 .info p {
   width: 100%;
   text-align: center;
@@ -153,6 +44,19 @@ html, body {
   font-family: Francois One;
   border-radius: 50px;
   /* border: 3px solid rgb(1, 34, 10); */
+}
+@media (max-width:600px) {
+
+  .mainlanding p{
+    font-size: 1em;
+    color: white;
+    text-shadow: 1px 1px rgb(1, 27, 0)
+  }
+  .info p{
+    font-size: .75em;
+    padding: 10px;
+  }
+
 }
 
 section#about {
@@ -168,7 +72,7 @@ section#about {
     /* text-shadow: 2px 2px #1c1c1c; */
   }
   #about p {
-    font-size: 1.5em;
+    font-size: 1em;
     color: rgb(242, 255, 237);
     /* text-shadow: 2px 2px #cdcdcd; */
     background-color: rgba(1, 34, 10, .8);
@@ -267,7 +171,7 @@ footer{
   line-height: 1.6;
   letter-spacing: 2px;
   font-size: 3em;
-  padding-right: 50px;
+  padding-right: 20px;
   text-decoration: none;
   list-style: none;
   font-size: 1em;

@@ -15,7 +15,7 @@ html, body {
   width: 100%;
   text-align: center;
   background-color: rgba(101, 101, 101, 0.5);
-  border-radius: 5px;
+  /* border-radius: 5px; */
 }
 
 .nav-title{
@@ -64,6 +64,8 @@ html, body {
 }
 
 @media (max-width:600px) {
+
+
   .nav > .nav-btn {
     display: inline-block;
     position: absolute;
