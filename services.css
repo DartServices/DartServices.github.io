@@ -21,7 +21,8 @@ html, body {
 .nav-title{
   float: left;
   padding: 0px;
-  margin-left: 10px;
+  margin-left: 25px;
+  margin-top: 10px;
 }
 
 .nav > .nav-header {
