@@ -2,144 +2,156 @@
 <html lang="en" dir="ltr">
 
 <head>
-
   <meta charset="utf-8">
-  <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Dart Outdoor Services offers quality landscaping, hardscapping, irrigation, and fencing to the Fort Mill/Charlotte area and Columbia area">
 
-  <title>DART: Landscaping, Hardscapping, Fencing, Irrigation, </title>
+  <title>DART: Landscaping, Hardscapping, Fencing, Irrigation</title>
 
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <!-- Custom fonts for this template -->
-  <!-- <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
-  <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'> -->
 
-  <!-- Custom styles for this template -->
+  <!-- CSS StyleSheet -->
   <link href="navbar.css" rel="stylesheet">
-  <link href="services.css" rel="stylesheet">
+  <link href="site.css" rel="stylesheet">
 
 
 </head>
 
 <body>
-  <!-- Navabr -->
-  <div class="nav">
-    <div class="nav-header">
-      <div class="nav-title">
+
+  <!-- NAVBAR -->
+
+  <nav id="navbar" class="">
+    <div class="nav-wrapper">
+      <!-- Navbar Logo -->
+      <div class="logo">
         <a href="index.html">
-        <img class="img-responsive" src="img/dartLogoSmall.png" alt="Dart Logo" height="100" width="100"></a>
+        <img class="img-responsive" src="dartLogoSmall.png" alt="Dart Logo" height="120" width="120"></a>
+
       </div>
+
+      <!-- Navbar Links -->
+      <ul id="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li class="phone"><a href="tel:+1-803-548-4822">(803)548-4822</a></li>
+      </ul>
     </div>
-    <div class="nav-btn">
-      <label for="nav-check">
-        <span></span>
-        <span></span>
-        <span></span>
-      </label>
-    </div>
-    <input type="checkbox" id="nav-check">
-    <div class="nav-links">
-      <a href="index.html" class='active-page'>Home</a>
-      <a href="services.html" >Services</a>
-      <a href="gallery.html">Gallery</a>
-      <a href="#reviews">Reviews</a>
-      <a href="#contact">Contact</a>
-    </div>
+  </nav>
+
+  <!-- Menu Icon -->
+  <div class="menuIcon">
+    <span class="icon icon-bars"></span>
+    <span class="icon icon-bars overlay"></span>
+  </div>
+
+  <div class="overlay-menu">
+    <ul id="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="tel:+1-803-548-4822">(803)548-4822</a></li </ul>
+  </div>
   </div>
 
 
-<div class="container">
-  <div class="row text-center">
-    <div class="col-lg-12">
+  <!-- END NAVBAR -->
 
-    <div class="mainlanding">
-      <img class="img-responsive"src="img/dartLogowhite.png"  alt="Dart Logo"/>
 
-      <p>Charlotte | Fort Mill | Columbia</p>
-    </div>
-
-    <div class="info">
-      <p>
-        Your one stop shop for all your landscaping, hardscaping, irrigation, and fencing needs
-      </p>
-    </div>
+  <div class="intro">
+    <!-- <div class="mainlanding">
+      <img class="img-responsive" src="dartLogowhite.png" alt="Dart Logo" >
+    </div> -->
+    <h1>Let Dart Give You <br>the Outdoor Patio You <br>Have Been Dreaming Of!</h1>
+    <p>Charlotte | Fort Mill | Columbia</p>
 
     <div class="buttons">
-    <a href="services.html" class="btn green">Our Services</a>
-      </div>
-
-
-
-  <!-- About -->
-  <section id="about">
-    <div class="header_section">
-      <h2>About</h2>
+      <a href="services.html" class="btn green">Our Services</a>
     </div>
-    <!-- <h3 class="section-subheading">Who Dart Outdoor Services is</h3> -->
+  </div>
+
+  <!-- Quote -->
+
+  <div class="quote">
+    <h2>"Fantastic service! Great work, very professional and knowledgeable. <br> So easy to work with and I highly recommend them!"</h2>
+    <p> <strong> -N. Quinn </strong></p>
+
+    <div class="buttons">
+      <a href="https://www.facebook.com/pg/DARTOutdoorServices/reviews/?ref=page_internal" class="btn darkbtn" target="_blank">More Reviews</a>
+    </div> </div>
+  </div>
+
+  <!-- Services -->
+
+  <div class="services">
     <div class="row">
-      <div class="col-xs-12 text-center">
-        <div class="about_p">
-          <p>
-            Specializing in Luxury Outdoor Living, DART Outdoor Services provides Landscaping, Hardscaping, Irrigation, Fencing, and Lighting to residential and commercial customers from Fort Mill, SC to Columbia, SC and surrounding areas.
-          </p>
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <a href="services.html">
+  <img src="hardscape_services.png" alt="hardscape image">
+</a>
+          <div class="caption">
+            <h3><a href="services.html"><strong>Hardscape</strong></a> </h3>
+            <p>We make your dreams...A reality</p>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
 
-
-  <!-- instagram -->
-  <section id="gallery">
-    <div class="gallery">
-      <h2>Gallery</h2>
-    </div>
-<div class='sk-instagram-feed' data-embed-id='14925'></div><script src='https://www.sociablekit.com/app/embed/instagram-feed/widget.js'></script>    <!-- <div class='sk-instagram-feed' data-embed-id='14925'></div>
-    <script src='https://www.sociablekit.com/app/embed/instagram-feed/widget.js'></script> -->
-    <div class="buttons">
-    <a href="gallery.html" class="btn green">View Our Work</a>
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <a href="services.html">
+  <img src="landscape_services.png" alt="design image">
+</a>
+          <div class="caption">
+            <h3><a href="services.html"><strong>Landscape</strong></a> </h3>
+            <p>Takng curb appeal to a whole new level</p>
+          </div>
+        </div>
       </div>
-  </section>
 
-  <section id="reviews">
-    <!-- Facebook -->
-    <div class="gallery">
-      <h2>Reviews</h2>
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <a href="services.html">
+  <img src="design_services.png" alt="design image">
+</a>
+          <div class="caption">
+            <h3><a href="services.html"><strong>Design</strong></a> </h3>
+            <p>Visualize what your dream will look like</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="buttons">
+        <a href="services.html" class="btn darkbtn" target="_blank">See What All We Have To Offer</a>
+      </div> </div>
     </div>
-<div class='sk-ww-fb-page-reviews' data-embed-id='14926'></div><script src='https://www.sociablekit.com/app/embed/facebook-page-reviews/widget.js'></script>  </div>
+  </div>
+
+<!-- Gallery -->
+
+<div class="gallery">
+
+<h2>Creating Dream Outdoor Spaces <br>for Over Thirty Years</h2>
+<div class="buttons">
+  <a href="gallery.html" class="btn darkbtn" target="_blank">Take a look at Our Work</a>
+</div>
 
 
 
 </div>
 
+<div class="contact">
+
 </div>
 
-<!-- <footer>
-  <section id="contact">
-  <ul class="contact_footer">
-    <li><a href="tel:1-803-548-4822">(803)548-4822</a> </li>
-    <li><a href="mailto:info@dartoutdoorservices.com" target="_top">info@dartoutdoorservices.com</a></li>
-  </ul>
-
-  <ul class="socialmedia">
-    <li><a href="https://www.facebook.com/DARTOutdoorServices/">
-      <img src="img/facebook.png" alt="Dart Facebook" style="width:42px;height:42px;border:0;">
-      </a></li>
-    <li><a href="https://www.instagram.com/dartoutdoorservices/">
-      <img src="img/instagram.png" alt="Dart Instagram" style="width:42px;height:42px;border:0;">
-      </a></li>
-  </ul>
-  </section>
-</footer> -->
 
 
 
   <script src="navbar.js"></script>
-
 </body>
 
 </html>
