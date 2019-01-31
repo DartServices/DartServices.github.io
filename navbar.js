@@ -1,3 +1,10 @@
+// Image gallery
+
+
+
+
+
+
 let menuIcon = document.querySelector('.menuIcon');
        let nav = document.querySelector('.overlay-menu');
 

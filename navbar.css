@@ -7,6 +7,7 @@
 
 body {
   font-family: Lato, Helvetica, Arial, sans-serif;
+
 }
 
 a {
@@ -243,8 +244,9 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
+  position: fixed;
   top: 0;
+  left: 0;
   right: 0;
   padding-right: 15px;
   transform: translateX(-100%);
@@ -253,6 +255,7 @@ a {
   -webkit-transition: transform 0.2s ease-out;
   transition: transform 0.2s ease-out;
   /* border-bottom: solid 5px #fff; */
+  z-index: 1;
 }
 
 .overlay-menu ul, .overlay-menu li {

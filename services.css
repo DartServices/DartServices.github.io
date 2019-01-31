@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 html, body {
   background: url(dartbgimage1.JPG) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -6,12 +10,6 @@ html, body {
   background-size: cover;
 }
 
-
-
-
-.container{
-
-}
 
 .jumbotron{
   font-family: open_sansregular, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -35,7 +33,9 @@ html, body {
   width: 100%;
   letter-spacing: 3px;
 }
-
+p{
+  text-align: left;
+}
 .jumbotron p{
   font-size: 12pt;
   text-shadow: rgba(0, 0, 0, 0.9) 0px 0px 3px;

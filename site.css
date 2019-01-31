@@ -1,9 +1,14 @@
+*{
+  box-sizing: border-box;
+}
+
 html body {
   background: url(dartbgimage1.JPG) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  margin: auto;
 }
 
 .intro {
@@ -143,7 +148,6 @@ h1 {
   background-color: rgb(50,50,50);
   border:none;
   text-align: center;
-
 }
 
 .thumbnail .caption strong{
@@ -172,7 +176,7 @@ h1 {
 }
 
 .gallery{
-  height: 500px;
+  height: 350px;
   background: url(dartbgimage1.JPG) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -194,9 +198,110 @@ h1 {
   letter-spacing: 3px;
 }
 
+
 .contact {
-  height: 400px;
-  background-color: rgb(50,50,50)
+  height: 300px;
+  background-color: rgb(50,50,50);
+  padding: 25px 10px;
+  border-top: 5px solid rgb(130, 185, 59);
+}
+
+.contact p {
+  color: #fff;
+  font-size: 14pt;
+  font-family: open_sansregular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-shadow: rgba(0, 0, 0, 0.9) 0px 0px 3px;
+  margin-top: 0px;
+  padding-bottom: 10px;
+  width: 100%;
+  letter-spacing: 1px;
+}
+
+.contact .heading{
+  font-size: 20pt;
+  font-family: open_sansregular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  text-shadow: rgba(0, 0, 0, 0.9) 0px 0px 3px;
+  margin-top: 0px;
+  padding-bottom: 5px;
+  width: 100%;
+  letter-spacing: 1px;
+text-align: center;
+text-decoration: underline;
+}
+
+
+ .contact .img-responsive {
+   display: block;
+   margin: auto;
+   padding-top: 50px;
+}
+
+.contact li{
+  display: inline;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 14pt;
+  align-items: center;
+}
+
+.contact .social-icons {
+text-align: center;
+padding: 0px 30px;
+}
+
+.contact  a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.contact  a:hover{
+  /* color: rgb(130,185,59); */
+  text-decoration: underline;
+}
+
+.contact .footer-info {
+  text-align:  left;
+  font-size: 16pt;
+  padding-bottom: 10px;
+  margin: 0;
+  color: rgb(130,185,59);
+
+
+}
+.contact .footer-address {
+  text-align:  center;
+  color: rgb(130,185,59);
+  font-size: 16pt;
+  padding-bottom: 10px;
+  margin: 0
+}
+
+.fa {
+  padding: 15px;
+  font-size: 40px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  align-items: center;
+  margin: 0px 30px;
+}
+
+.fa-facebook {
+  background:rgb(130,185,59);
+  color: white;
+  border-radius: 50%;
+}
+
+.fa-instagram {
+  background:rgb(130,185,59);
+  color: white;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
 }
 
 
@@ -239,6 +344,17 @@ h1 {
     padding-top: 0px;
     padding-bottom: 15px;
   }
+  .contact{
+    height: auto;
+  }
+  .contact .img-responsive {
+  display: block;
+  margin: auto;
+  padding-top: 15px;
+ }
+ .contact .footer-info{
+   font-size: 12pt;
+ }
 }
 
 @media(max-width: 1024px) {}

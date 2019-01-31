@@ -10,10 +10,19 @@
 
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
 
   <!-- CSS StyleSheet -->
   <link href="navbar.css" rel="stylesheet">
   <link href="site.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
 </head>
@@ -22,44 +31,45 @@
 
   <!-- NAVBAR -->
 
-<nav id="navbar" class="">
-  <div class="nav-wrapper">
-    <!-- Navbar Logo -->
-    <div class="logo">
-      <a href="index.html">
+  <nav id="navbar" class="">
+    <div class="nav-wrapper">
+      <!-- Navbar Logo -->
+      <div class="logo">
+        <a href="index.html">
       <img class="img-responsive" src="dartLogoSmall.png" alt="Dart Logo" height="120" width="120"></a>
 
-    </div>
+      </div>
 
-    <!-- Navbar Links -->
+      <!-- Navbar Links -->
+      <ul id="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li class="phone"><a href="tel:+1-803-548-4822">(803)548-4822</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Menu Icon -->
+  <div class="menuIcon">
+    <span class="icon icon-bars"></span>
+    <span class="icon icon-bars overlay"></span>
+  </div>
+
+  <div class="overlay-menu">
     <ul id="menu">
       <li><a href="index.html">Home</a></li>
       <li><a href="services.html">Services</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
       <li class="phone"><a href="tel:+1-803-548-4822">(803)548-4822</a></li>
     </ul>
   </div>
-</nav>
-
-<!-- Menu Icon -->
-<div class="menuIcon">
-  <span class="icon icon-bars"></span>
-  <span class="icon icon-bars overlay"></span>
-</div>
-
-<div class="overlay-menu">
-  <ul id="menu">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="services.html">Services</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="tel:+1-803-548-4822">(803)548-4822</a></li </ul>
-</div>
-</div>
 
 
-<!-- END NAVBAR -->
+
+  <!-- END NAVBAR -->
 
 
   <div class="intro">
@@ -82,7 +92,8 @@
 
     <div class="buttons">
       <a href="https://www.facebook.com/pg/DARTOutdoorServices/reviews/?ref=page_internal" class="btn darkbtn" target="_blank">More Reviews</a>
-    </div> </div>
+    </div>
+  </div>
   </div>
 
   <!-- Services -->
@@ -104,7 +115,7 @@
       <div class="col-sm-6 col-md-4">
         <div class="thumbnail">
           <a href="services.html">
-  <img src="landscape_services.png" alt="design image">
+  <img src="landscape1.png" alt="design image">
 </a>
           <div class="caption">
             <h3><a href="services.html"><strong>Landscape</strong></a> </h3>
@@ -127,26 +138,49 @@
 
       <div class="buttons">
         <a href="services.html" class="btn darkbtn" target="_blank">See What All We Have To Offer</a>
-      </div> </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- Gallery -->
+
+  <div class="gallery">
+    <h2>Creating Dream Outdoor Spaces <br>for Over Thirty Years</h2>
+    <div class="buttons">
+      <a href="gallery.html" class="btn darkbtn">Take a look at Our Work</a>
     </div>
   </div>
 
-<!-- Gallery -->
-
-<div class="gallery">
-
-<h2>Creating Dream Outdoor Spaces <br>for Over Thirty Years</h2>
-<div class="buttons">
-  <a href="gallery.html" class="btn darkbtn" target="_blank">Take a look at Our Work</a>
-</div>
 
 
-
-</div>
 
 <div class="contact">
+    <div class="row-fluid">
+<div class="col-md-4">
+  <p class="heading">About Dart</p>
+  <p class=class="footer-info">Specializing in Luxury Outdoor Living, DART Outdoor Services provides Landscaping, Hardscaping, Irrigation, Fencing, and Lighting to residential and commercial customers from Fort Mill, SC to Columbia, SC and surrounding areas.</p>
+</div>
+<div class="col-md-4">
+  <img class="img-responsive" src="dartLogoSmall.png" alt="Dart Logo" height="200" width="200"></a>
 
 </div>
+ <div class="col-md-4">
+   <p class="heading">Contact Us</p>
+   <p class="footer-address">16408 Shallow Pond Rd<br> Charlotte, NC 28278</a></p>
+
+   <p class="footer-info">Give Us A Call: <a href="tel:+1-803-548-4822">(803)548-4822</a></p>
+   <p class="footer-info">Email Us: <a  href="mailto:info@dartoutdoorservices.com">info@dartoutdoorservices.com</a></p>
+<ul class="social-icons">
+  <li><a href="https://www.facebook.com/DARTOutdoorServices/" target="_blank" class="fa fa-facebook"></a></li>
+  <li><a href="https://www.instagram.com/dartoutdoorservices/" target="_blank" class="fa fa-instagram"></a></li>
+</ul>
+</div>
+</div>
+
+</div>
+
+
 
 
 
